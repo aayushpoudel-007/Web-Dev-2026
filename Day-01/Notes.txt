@@ -1,0 +1,68 @@
+What is a Website?
+
+A Website is a set of web resources (HTML, CSS, JS, Text, Images, Files, etc)  that is hosted on a server, that a browser retrieves and renders for the user.
+For example: https://www.google.com
+
+
+URL
+
+URL or Uniform Resource Locator is a unique address of a website on the Internet.
+For example: https://www.google.com
+
+
+Internet
+
+Internet is a collection of interconnected computers that communicate and share data and information between one another.
+
+
+Browser
+
+A Browser is a software application that allows users to access and interact with websites on the Internet. It sends requests to servers, recieves responses, and renders the recieved response to the user.
+For example: Microsoft Edge.
+
+
+Server
+
+A Server is a computer that recieves requests from clients such as browsers and provides resources or services in response.
+For example: Google servers.
+
+
+How they work together?
+
+Say a user wants to access Google's website on his wrowser. 
+
+1. The user types Google's URL in the browser.
+2. The browser sends a request to Google's server.
+3. Google's Server processes the request, and responds with the required web resources.
+4. The Browser receives and renders the website, ultimately showing it to the user.
+
+
+Hyper Text Markup Language (HTML)
+HyperText Markup Language (HTML) is used to create the structure and content of a website.
+HTML tells the browser what elements exist on the webpage and what they represent.
+For example, HTML can define headings, paragraphs, images, links, buttons, forms, and other elements.
+HTML does not primarily control how these elements look. That is the job of CSS.
+
+Think of HTML as the bare frame of a car. The basic structure of the car exists, but it has not been designed or given functionality yet.
+
+
+Cascading Style Sheets (CSS)
+Cascading Style Sheets (CSS) is used to control the appearance and layout of a website.
+CSS tells the browser how the HTML elements should look and where they should be arranged.
+CSS controls things such as colors, fonts, sizes, spacing, positioning, and overall page layout.
+CSS is the design and presentation layer of a website.
+
+Think of CSS as the car's paint, seats, windows, doors, wheels, and overall design. It makes the basic structure look complete and presentable, but the car still cannot perform its intended functions.
+
+
+JavaScript (JS)
+JavaScript or JS is used to add logic, behavior and interactivity to a website.
+Think of JS as the engine of the car, which makes the usability of the car complete.
+
+
+In summary, 
+
+HTML       → Structure & Content
+CSS        → Appearance & Layout
+JavaScript → Logic, Behavior & Interactivity
+
