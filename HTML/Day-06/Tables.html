@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tables</title>
+</head>
+
+<body>
+	<table>
+		<tr>								<!-- <tr> creates a horizontal row -->
+			<th>Name</th>						<!-- <th> creates table headings -->
+			<th>Age</th>						<!-- <td> is the table data -->
+			<th>Address</th>
+		</tr>
+		
+		<tr>
+			<td>Aayush</td>
+			<td>23</td>
+			<td>Kathmandu</td>
+		</tr>
+
+		<tr>
+			<td>Karthika</td>
+			<td>24</td>
+			<td>Trivandrum</td>
+		</tr>
+	</table>
+
+	<table>
+		<thead>								<!-- <thead> groups header rows -->					
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Address</th>
+			</tr>
+		</thead>
+
+		<tbody>								<!-- <tbody> groups table data -->
+			<tr>
+				<td>Aayush</td>
+				<td>23</td>
+				<td>Kathmandu</td>
+			</tr>
+		
+			<tr>
+				<td>Karthika</td>
+				<td>24</td>
+				<td>Trivandrum</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<table>
+
+		<caption>Store</caption>					<!-- <caption> gives a title to the table -->
+
+			<thead>
+
+				<tr>
+					<th>Product Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+		
+			<tbody>
+				<tr>
+					<td>Chips</td>
+					<td>50</td>
+				</tr>
+		
+				<tr>
+					<td>Coke</td>
+					<td>50</td>
+				</tr>
+			</tbody>
+
+			<tfoot>								<!-- <tfoot> summarizes the table -->
+				<tr>
+					<td>Total</td>
+					<td>100</td>
+				</tr>
+			</tfoot>
+	</table>
+
+	<table>
+		<caption>Store</caption>						<!-- <caption> adds a heading to the table -->
+
+			<thead>
+				<tr>
+					<th colspan="2">Store Register</th>		<!-- <colspan> makes one cell span across "=2" columns -->
+				</tr>
+
+				<tr>
+					<th>Product Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Chips</td>
+					<td>50</td>
+				</tr>
+
+				<tr>
+					<td>Coke</td>
+					<td>50</td>
+				</tr>
+			</tbody>
+
+			<tfoot>
+				<tr>
+					<td>Total</td>
+					<td>100</td>
+				</tr>
+			</tfoot>
+	</table>
+			
+	<table>
+		<caption>Store</caption>
+		
+			<thead>
+				<tr>
+					<th colspan="2">Store Register</th>
+				</tr>
+				
+				<tr>
+					<th>Category</th>
+					<th>Product Name</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td rowspan="2">Coke</td>			<!-- <rowspan> makes one cell spread across "=2" rows -->
+					<td>Chips</td>
+					<td>50</td>
+				</tr>
+			</tbody>
+
+			<tfoot>
+				<tr>
+					<td>Total</td>
+					<td>100</td>
+				</tr>
+			</tfoot>
+	</table>
+
+</body>
+
+</html>
